@@ -1,0 +1,147 @@
+
+*{font-family:Futura;}
+.container-fluid{margin:20px;}
+#icon{margin-left:50px;margin-top: 20px;color:white;}
+#nav{list-style: none;margin-top:90px;}
+#nav li{display:inline;text-align: right;padding-right:30px;font-size: 20px;font-weight: bold;}
+a {color:white;}
+a:hover{color:white;}
+h1{letter-spacing: 10px;font-size}
+h1{font-size: 70px;font-weight: bold;}
+
+/*.text{color:white;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);}
+.wedding-centered{font-size: 50px;}
+
+.centered-rsvp{;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);}
+.rsvp{font-size: 50px;}
+
+.centered-registry{
+      color:white;
+      position: absolute;
+      top: 100%;
+      left: 25%;
+      transform: translate(-50%, -50%);}
+.registry{font-size: 50px;}
+
+.centered-london{
+        color:white;
+        position: absolute;
+        top: 100%;
+        left: 75%;
+        transform: translate(-50%, -50%);}
+.london{font-size: 50px;}*/
+
+/*Homepage set up*/
+html,body{max-height:100%;}
+
+.row{
+  display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;max-height:inherit;}
+
+.column{
+  flex: 50%;
+  max-width: 50%;}
+
+  .column img {
+    vertical-align: middle;
+    max-width:100%;max-height:100%;
+  }
+
+.weddinglink{position:relative;}
+.column .weddinglink .weddingtext{position:absolute;
+z-index:1; margin:0 auto;-ms-text-size-adjust: 100%;transform:translate(180px,-250px);
+    -webkit-text-size-adjust: 100%;}
+.weddingtext{position:absolute; color:white;font-size: 70px;z-index:1}
+
+.rsvplink{position:relative;}
+.column .rsvplink .rsvptext{position:absolute;
+z-index:1; margin:0 auto;-ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;transform:translate(250px,-290px)}
+.rsvptext{position:absolute;color:white;font-size: 70px}
+
+.resgistrylink{position:relative;}
+.column .registrylink .registrytext{position:absolute;
+z-index:1; margin:0 auto;-ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;transform:translate(180px,-250px)}
+.registrytext{position:absolute;color:white;font-size: 70px}
+
+.londonlink{position:relative;}
+.column .londonlink .londontext{position:absolute;
+z-index:1; margin:0 auto;-ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;transform:translate(180px,-290px)}
+.londontext{position:inherit;color:white;font-size: 70px}
+
+
+
+/*backgrounds additional pages*/
+
+.weddingpage{
+			background-image: url(photos/bb3.jpg) ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+
+}
+.wedding-text-body{color:white; font-size: 22px;line-height: 32px;
+  text-justify: inter-word;padding-top: 15px;display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;}
+
+
+.rsvppage{
+  background: url(photos/rsvpfinal.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#RSVPifyIFrame{z-index: 1;position: absolute;margin-top: 20%;transform: translate(2%, -6%);opacity: .9 !important;}
+
+
+
+.registrypage{
+  background: url(photos/registrypicture.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.giftlist-text-body{color:white; font-size: 22px;line-height:32px;
+  text-justify: inter-word;padding-top: 15px;display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;}
+
+
+
+
+.londonpage{position:absolute;z-index: 1;
+    background: url(photos/londonpicture.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .london-text-body{color:white; font-size: 19px;line-height:30px;
+    text-justify: inter-word;padding-top: 15px;display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;}
