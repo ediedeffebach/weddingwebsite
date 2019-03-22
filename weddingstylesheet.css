@@ -64,25 +64,25 @@ html,body{max-height:100%;}
 .weddinglink{position:relative;}
 .column .weddinglink .weddingtext{position:absolute;
 z-index:1; margin:0 auto;-ms-text-size-adjust: 100%;transform:translate(25%,-80%);
-    -webkit-text-size-adjust: 100%;color:white;font-size: 70px}
+    -webkit-text-size-adjust: 100%;color:white;font-size: 6vw}
 
 
 .rsvplink{position:relative;}
 .column .rsvplink .rsvptext{position:absolute;
 z-index:1; margin:0 auto;-ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;transform:translate(50%,-80%);color:white;font-size: 70px}
+    -webkit-text-size-adjust: 100%;transform:translate(50%,-80%);color:white;font-size: 6vw}
 
 
 .resgistrylink{position:relative;}
 .column .registrylink .registrytext{position:absolute;
 z-index:1; margin:0 auto;-ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;transform:translate(25%,-80%);color:white;font-size: 70px}
+    -webkit-text-size-adjust: 100%;transform:translate(25%,-80%);color:white;font-size: 6vw}
 
 
 .londonlink{position:relative;}
 .column .londonlink .londontext{position:absolute;
 z-index:1; margin:0 auto;-ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;transform:translate(50%,-80%);color:white;font-size: 70px}
+    -webkit-text-size-adjust: 100%;transform:translate(50%,-80%);color:white;font-size: 6vw}
 
 
 
